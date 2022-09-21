@@ -1,0 +1,57 @@
+feature: Hotel Booking In Adcation Booking
+
+Scenario: Login Page
+
+Given user launch The Application
+
+When User Enter The UserName In UserName Field
+
+And User Enter The Password In Password Field
+
+Then User Click On The Login Button And It Navigates To Search Button
+
+Scenario: Search Hotel Page
+
+When User Select the Hotel Page
+
+And User Select Room Type
+
+And User Select Number Of Rooms 
+
+And User Select Check in Date
+
+And User Select Check Out Date
+
+And User Select Adults Per Rooms
+
+And User Select Childern Per Rooms
+
+Then User Click On The Search Button And It Navigates To The Continue
+
+Scenario:Continue Button
+
+When User Select Hotel
+
+Then User Click On The Search Button And It Navigates To The Continue
+
+Scenario: Continue Button
+
+When User Select Hotel
+
+Then User Click On The Continue And It Navigates To The Book Now 
+
+When User The First Name In First Name Field 
+
+And User Enter The Last Name In Last Name Field
+
+And User Enter The Address In Address Field
+
+And User Enter The Credit Card Number In Credit Card Number In Field
+
+And User Enter The Credit Card Type In Credit Card Type In Field
+
+And User Enter The Expiry Date In Expiry Date In Field
+
+And User Enter The CVV Number In CVV Number In Field   
+
+Then User Click On The Book Now And It Navigates To The Book Confirmation
